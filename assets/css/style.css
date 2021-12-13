@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/geld.jpg');
 
   background-position: center center;
   background-size: cover;
@@ -255,3 +255,7 @@ body.page-template-page-fullsingle-me h1 {
 }
 
 h1{color: rgb(247, 25, 128)}
+
+p{color: rgb(169, 247, 25);
+  background-color: rgb(36, 20, 173);
+padding: 10px;}
