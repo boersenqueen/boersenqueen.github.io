@@ -1,5 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+/*Kastenbreite für alle Elemente bleibt wie festgelegt Padding und Border werden abgezogen  */
 a {
-  color: red; 
-  ;
+  color: red;
 } /* mehrere Eigenschaften mit ; trennen */
-html {background: rgb(40, 161, 93);font-family: Verdana, Geneva, Tahoma, sans-serif;}
+html {
+  background: rgb(40, 161, 93);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  width: 600px;
+  color: white;
+  background-color: black;
+  /*Textbreite 600 Pixel; weiße Schrift auf schwarzem Grund*/
+  margin: 20px;
+  padding: 10px;
+  border: 3px rgb(222, 240, 67) solid;
+}
+/*margin = Abstand zu anderem Element / Padding = Abstand im Kasten / Border = Rand*/
+
+#blau {
+  background-color: blue;width: 700px;
+}
+
+/*Definition für ID blau*/
+
+.palm {
+  background-color: peru;
+  width: 400px; border-color: white;
+}
+/*Definition für Class Palm  / Hintergrundfarbe und Kastenbreite*/
